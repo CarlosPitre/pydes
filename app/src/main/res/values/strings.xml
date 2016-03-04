@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">pydes</string>
+
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Correo invalido</string>
+    <string name="error_invalid_password">Contraseña muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="DrawerOpen">Open</string>
+    <string name="DrawerClose">Close</string>
+    <string-array name="PlanetsArray">
+        <item>SolHo</item>
+        <item>Quiero ser Parte</item>
+        <item>Fotos</item>
+    </string-array>
+
+    <string-array name="mobile_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>TS/TV/TG</item>
+    </string-array>
+
+    <string-array name="Countrics_array">
+        <item>Colombia</item>
+        <item>Venazuela</item>
+        <item>Usa</item>
+    </string-array>
+
+
+    <string-array name="Cuerpo_array">
+        <item>Delgada</item>
+        <item>Atletica</item>
+        <item>Voluptosa</item>
+        <item>Con unas cernes de Mas </item>
+        <item>Grande y Hermoso(a) </item>
+    </string-array>
+    <string-array name="TallaSeno_array">
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40 </item>
+    </string-array>
+
+    <string-array name="TallaCopa_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="ColorPelo_array">
+        <item>Negro</item>
+        <item>Cafe</item>
+        <item>Rubio</item>
+        <item>Rojo</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="LongitudPelo_array">
+        <item>Largo</item>
+        <item>Medio</item>
+        <item>Corto</item>
+        <item>Rape</item>
+
+    </string-array>
+
+    <string-array name="ColoOjos_array">
+        <item>Negro</item>
+        <item>Marron</item>
+        <item>Pardo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+    </string-array>
+    <string-array name="MyServics_array">
+        <item>Si</item>
+        <item>No</item>
+
+    </string-array>
+
+    <string name="action_websearch">Web search</string>
+    <string name="action_slidingpane">Other</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="sliding_pane_layout_summary">This activity illustrates the use of sliding panes. The content pane may be slid to one side on narrow devices to reveal the left pane used to select content. Sliding panes can be used to fit a UI intended for wider screens in a smaller space. Tapping the Action Bar\'s Up button at the left side of the bar will navigate up in the hierarchy, represented by the left pane. If you rotate the device to landscape mode, on most devices you will see that both panes fit together side by side with no sliding necessary.</string>
+    <string name="titulodialogo01">MI LOCALIZAION ES!</string>
+    <string name="mismaAddress">DESEO  EL SERVICIO EN LA MISMA DIRECCION?</string>
+    <string name="_si">Si</string>
+    <string name="_no">No</string>
+    <string name="_deseoServicioen">DESEO EL SERVICIO EN:</string>
+    <string name="_referenciaservicio">REFERENCIA BARRIO, DPTO,BLOQUE,...</string>
+    <string name="_sitiorecomendadoapp">SITIO RECOMENDADO POR APP</string>
+    <string name="_guadarAddressFavorita">GUADAR CONO FAVORITA</string>
+    <string name="_nombre">HOMBRE</string>
+    <string name="_mujer">MUJER</string>
+    <string name="_parejahombre">P. DE HOMBRES</string>
+    <string name="_parejamujer">P. DE MUJERES</string>
+    <string name="_trans">TRANS</string>
+    <string name="_parejahombremujer">P. DE H Y M</string>
+    <string name="_estoybuscando">ESTOY BUSCANDO:</string>
+    <string name="_estoybuscandoespesial">BUSCO UN SERVICIO ESPECIAL?</string>
+    <string name="_16">LA HORA DEL SERVICIO?</string>
+    <string name="_17">DURACION DEL SERVICIO?</string>
+    <string name="_18">EL RANGO DE PAGO?</string>
+    <string name="_19">PERFIL</string>
+    <string name="_20">PRECIOS - SERVICIOS</string>
+    <string name="_21">ESTADISTICAS - VALORACIONES</string>
+    <string name="_22">SOLICITAR</string>
+    <!--PERFIL-->
+    <string name="_23">Nombres:</string>
+    <string name="_24">Edad:</string>
+    <string name="_25">Estatura:</string>
+    <string name="_26">Cuerpo:</string>
+    <string name="_27">Talla de Senos:</string>
+    <string name="_28">Talla de Copa:</string>
+    <string name="_29">Medidas:</string>
+    <string name="_30">Color de Pelo:</string>
+    <string name="_31">Longitud del Pelo:</string>
+    <string name="_32">Color de Ojos:</string>
+    <!--PRECIOS - SERVCIOS-->
+    <string name="_34">Precio:</string>
+    <string name="_35">Viaje:</string>
+    <string name="_36">Restaurantes:     </string>
+    <string name="_37">Discotecas:</string>
+    <string name="_38">Fiestas:</string>
+    <string name="_39">Baile:</string>
+    <string name="_40">PERFIL</string>
+    <string name="_41">MI FISICO</string>
+    <string name="_42">MI SERVICIOS</string>
+    <string name="_43">Continuar</string>
+
+    <!--Otros-->
+    <string name="_44">Contraseña para Pyde</string>
+    <string name="_45">E-mail</string>
+    <string name="_46">Nombre Usuario</string>
+
+</resources>

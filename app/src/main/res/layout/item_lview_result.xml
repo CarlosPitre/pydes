@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="2dp"
+    android:paddingBottom="10dp">
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/ImgView"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Nombres"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtName" />
+        <TextView
+            android:text="Valor"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtValor" />
+        <TextView
+            android:text="Edad"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtEdad" />
+        <TextView
+            android:text="Descripcion fisica"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtDetails" />
+        <TextView
+            android:text="Verificada por SolHo"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtIsActivo" />
+    </LinearLayout>
+</LinearLayout>

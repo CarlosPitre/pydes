@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#ff000000">
+    <Button
+        android:text="BUSCO SERVICIO"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/BntBusco"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light" />
+    <Button
+        android:text="OFREZCO SERVICIO"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/BntOfrezco"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textColor="#ffe035a8"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:padding="20dp">
+        <TextView
+            android:text="@string/_19"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:gravity="center" />
+        <TextView
+            android:text="Soy / Somos:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpSoy"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:text="Interesados:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="5dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <CheckBox
+                android:text="Hombre"
+                android:id="@+id/ChBoxHombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <CheckBox
+                android:text="Mujer"
+                android:id="@+id/ChBoxMujer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <CheckBox
+                android:text="Parejas"
+                android:id="@+id/ChBoxParejas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <CheckBox
+                android:text="TS/TV/TG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ChBoxTSTVTG"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <TextView
+            android:text="Fecha de Nacimiento:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_marginTop="5dp">
+            <EditText
+                android:inputType="numberSigned"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TxtMounth"
+                android:hint="Mes"
+                android:layout_weight="1"
+                android:maxLength="2" />
+            <EditText
+                android:inputType="numberSigned"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TxtDay"
+                android:hint="Dia"
+                android:layout_weight="1"
+                android:maxLength="2" />
+            <EditText
+                android:inputType="numberSigned"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TxtYear"
+                android:hint="Año"
+                android:layout_weight="1"
+                android:maxLength="4" />
+        </LinearLayout>
+        <TextView
+            android:text="Pais de Origen:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginTop="5dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpCountry"
+            android:layout_marginTop="5dp" />
+        <Button
+            android:text="Continuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnRegister"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</ScrollView>

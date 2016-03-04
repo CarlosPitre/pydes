@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView1"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:background="@color/Banda">
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/ImgView"
+                android:scaleType="centerCrop" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/some_id_if_needed"
+                layout="@layout/table_perfil" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <Button
+            android:text="@string/_22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/BntSolicitar"
+            android:background="@android:color/holo_green_dark" />
+    </LinearLayout>
+</LinearLayout>

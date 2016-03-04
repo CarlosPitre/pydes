@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="4"
+        android:background="@android:color/background_dark">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ImgFoto" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <ImageButton
+                android:src="@android:drawable/ic_menu_camera"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageB01"
+                android:scaleType="centerInside" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_camera"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageB02"
+                android:scaleType="centerInside" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_camera"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageB03"
+                android:scaleType="centerInside" />
+            <ImageButton
+                android:src="@android:drawable/ic_menu_camera"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageB04"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+        <Button
+            android:text="CONTINUAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnContunuar"
+            android:background="@drawable/bnt_verde"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</LinearLayout>
